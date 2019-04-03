@@ -1,0 +1,21 @@
+{
+    "name": "rajwebsoft/hello-world",
+    "description": "My package for show data",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Raj",
+            "email": "rajwebsoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "rajwebsoft\\HelloWorld\\": "src/"
+        }
+    }
+}
